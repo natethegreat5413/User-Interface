@@ -67,6 +67,8 @@ h1, h2, h3, h4, h5 {
 body{
 	width:100%;
 	text-align:center;
+	padding: 0 10%;
+	line-height: 1.5;
 }
 
 .logo{
@@ -96,13 +98,18 @@ nav span{
 
 h1{
 	display:inline-block;
-	font-size:600%;
-	width: 50%;
+	font-size:550%;
+	width: 55%;
+	text-align: middle;
+
 }
 .section1 div{
 	display:inline-block;
-
 }
+button{
+	margin-right: 33%;
+}
+
 .container{
 	display: block;
 	margin-right: 100px;
@@ -110,18 +117,57 @@ h1{
 .container h1{
 	display:block;
 }
-.top-content{
+.top-container{
 	border-top: 1px solid black;
+	margin: 0 auto;
 }
-.features{
-	margin: 25%;
-	display:inline-block;
-	width: 25%;
-	border: 1px solid red;
+.features, .about {
+	display: inline-block;
+	width: 49%;
+	padding: 5% 0;
+	text-align: justify;
 }
+
 .about{
-	display:inline-block;
-	width: 25%;
-	border: 1px solid red;
+	padding-left: 5%;
 }
+
+.middle-img{
+	display: inline-block;
+	width: 100%;
+	position: center;
+	padding: 5% 0;
+	
+	
+}
+
+.services, .product, .vision {
+	display: inline-block;
+	width: 33%;
+	text-align: justify;
+	margin 10% 2%;
+	padding-top: 5%;
+}
+.services, .product{
+	padding-right: 3%;
+}
+.bottom-container{
+	border-top: 1px solid black;
+	
+}
+
+
+.contacts{
+	text-align: justify;
+	padding-top: 4%;	
+}
+.contacts{
+	line-height: 2;
+}
+
+footer{
+	display: inline-block;
+	margin: 7%;
+}
+
 
